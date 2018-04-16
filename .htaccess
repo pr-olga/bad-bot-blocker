@@ -3,6 +3,7 @@ RewriteEngine on
 
 # Block Bad Bots & Scrapers
 SetEnvIfNoCase User-Agent "Aboundex" bad_bot
+SetEnvIfNoCase User-Agent "^AhrefsBot" bad_bot
 SetEnvIfNoCase User-Agent "80legs" bad_bot
 SetEnvIfNoCase User-Agent "360Spider" bad_bot
 SetEnvIfNoCase User-Agent "^Java" bad_bot
@@ -40,6 +41,7 @@ SetEnvIfNoCase User-Agent "^DittoSpyder" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Demon" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Devil" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Wonder" bad_bot
+SetEnvIfNoCase User-Agent "^DotBot" bad_bot
 SetEnvIfNoCase User-Agent "^dragonfly" bad_bot
 SetEnvIfNoCase User-Agent "^Drip" bad_bot
 SetEnvIfNoCase User-Agent "^eCatch" bad_bot
@@ -108,6 +110,7 @@ SetEnvIfNoCase User-Agent "^MIIxpc" bad_bot
 SetEnvIfNoCase User-Agent "^Mirror" bad_bot
 SetEnvIfNoCase User-Agent "^Missigua\ Locator" bad_bot
 SetEnvIfNoCase User-Agent "^Mister\ PiX" bad_bot
+SetEnvIfNoCase User-Agent "^MJ12bot" bad_bot
 SetEnvIfNoCase User-Agent "^moget" bad_bot
 SetEnvIfNoCase User-Agent "^Mozilla/3.Mozilla/2.01" bad_bot
 SetEnvIfNoCase User-Agent "^Mozilla.*NEWT" bad_bot
@@ -141,6 +144,7 @@ SetEnvIfNoCase User-Agent "^Pockey" bad_bot
 SetEnvIfNoCase User-Agent "^ProPowerBot/2.14" bad_bot
 SetEnvIfNoCase User-Agent "^ProWebWalker" bad_bot
 SetEnvIfNoCase User-Agent "^psbot" bad_bot
+SetEnvIfNoCase User-Agent "^python" bad_bot
 SetEnvIfNoCase User-Agent "^Pump" bad_bot
 SetEnvIfNoCase User-Agent "^QueryN.Metasearch" bad_bot
 SetEnvIfNoCase User-Agent "^RealDownload" bad_bot
